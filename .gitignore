@@ -56,10 +56,10 @@ logs/
 data/*.db
 data/*.sqlite
 
-# Test files
+# Test files (only root level)
 test_*.py
 *_test.py
-tests/
+# tests/ directory should NOT be ignored!
 
 # Streamlit
 .streamlit/secrets.toml
